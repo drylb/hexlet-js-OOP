@@ -18,6 +18,7 @@
   "author": "Vlad Sergy",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^26.0.19",
     "lodash": "^4.17.20"
   },
   "devDependencies": {
