@@ -71,7 +71,7 @@ Money1.prototype.exchangeTo = function exchangeTo(newCurrency) {
     return new Money1(currentValue, currency);
   }
   const newValue = currentValue * rates[currency][newCurrency];
-  return new Money(newValue, currentValue);
+  return new Money1(newValue, currentValue);
 };
 
 Money1.prototype.add = function add(money) {
