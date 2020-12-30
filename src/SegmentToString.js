@@ -15,7 +15,7 @@ Segment.prototype.getEndPoint = function getEndPoint() {
 
 // BEGIN (write your solution here)
 Segment.prototype.toString = function toString() {
-  return `[${this.beginPoint}, ${this.endPoint}]`;
+  return `[${this.getBeginPoint()}, ${this.getEndPoint()}]`;
 };
 // END
 

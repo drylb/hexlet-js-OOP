@@ -15,6 +15,6 @@ Point.prototype.getY = function getY() {
 
 // BEGIN (write your solution here)
 Point.prototype.toString = function toString() {
-  return `(${this.x}, ${this.y})`;
+  return `(${this.getX()}, ${this.getY()})`;
 };
 // END
